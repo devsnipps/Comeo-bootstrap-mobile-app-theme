@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body,html,div,ul,li,section,img{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+h1{
+	line-height: 1.3em;
+
+}
+
+header{
+	background: url(../images/header.jpg);
+	background-size: cover;
+	
+	background-repeat: no-repeat;
+	height: 100vh;
+	
+	background-position: top;
+}
+.header-text{
+	margin-top: 120px;
+	color: #fff;
+}
+
+.header-text .btn-default {
+    color: #fff;
+    background-color: transparent;
+    border-color: #ccc;
+}
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover{
+	     color: #fff;
+    background-color: transparent;
+    border-color: #ccc;
+}
+
+.jumbotron {
+    background-color: #f7f7f7;
+}
+
+.work-grid .features{
+	margin: 40px 0px;
+}
+.work-grid h3{
+	margin-top: 70px;
+	font-size: 18px;
+	color: #333;
+}
+
+.work-grid span{
+	border: 1px solid #333;
+	padding: 35px 35px;
+	border-radius: 50%;
+	color: #333;
+}
+.work-grid p{
+	font-size: 15px;
+	color: #333;
+}
+
+/* features */
+
+section .app-info{
+	margin: 80px 0px 100px;
+}
+section #product-info{
+	margin-top: 20px;
+}
+section .app-info span{
+	border: 1px solid #f7f7f7;
+	background-color: #f7f7f7;
+	padding: 35px 35px;
+	border-radius: 50%;
+}
+section .app-info span i{
+	font-size: 25px;
+}
+section .app-info h3{
+	margin-top: 2.5em;
+	text-transform: uppercase;
+}
+section .app-info .col-md-4{
+	margin-top: 80px;
+}
+/* analytics */
+section.analytics{
+	background: url(../images/an.jpg);
+	background-size: cover;
+	height: auto;
+	color: #fff;
+}
+.analytics-wrap{
+	margin: 90px 0px;
+}
+
+.analytics .analytics-demo{
+	text-align: right;
+	border-right: 2px solid #fff;
+	height: 10%;
+}
+.analytics p{
+	font-size: 20px;
+}
+
+
+
+/* contact */
+.contact h2{
+	font-weight: bold;
+}
+.contact address{
+	line-height: 1.5em;
+	font-size: 17px;
+}
+.contact .form-control{
+	height: 40px;
+	border-radius: 0px;
+	border-color: #333;
+
+}
+textarea{
+	height: 100px !important;;
+}
+
+form #form-element{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+form #btn{
+	background-color: #333;
+	color: #fff;
+}
+form .form-control:focus{
+	border-color: none;
+	box-shadow: none;
+}
+
+/* footer */
+
+footer{
+	background-color: #f7f7f7;
+	color: #333;
+}
+.comeo-contact{
+	margin: 60px 0px !important;
+}
+.footer-comeo{
+	margin: 50px 0px;
+}
+footer p{
+	line-height: 2em;
+}
+footer p a{
+	margin-right: 10px;
+	font-size: 20px;
+	color: #999;
+}
